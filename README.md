@@ -88,7 +88,7 @@ Personally, id recomend compiling the program using pyinstaller, and creating a 
 - ThreatFox for providing valuable threat intelligence data
 - FortiEDR for inspiring the CSV export feature
   
-**And Most Importantly, an Achnowlegment to the supreme cause of this project.**
+**And Most Importantly, an Achnowlegment To The Supreme Cause of This Project. The Forensicator.**
   - It Was Rather Beautiful Theoretically Implementing This Program, Theoretically Ofcourse.
   - Verily, I say Unto Thee, Shall We Discuss Supreme Innovations Over Smoke and Coffee.
 
