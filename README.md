@@ -59,10 +59,10 @@ FortiFox organizes exported IOCs in a structured folder hierarchy:
   └── ...
 ```
 
-- Each month gets its own folder (YYYY-MM format)
-- Daily folders are created within the month folders
-- CSV files are named with the date and a unique identifier
-- New CSV files are created for every 1997 IOCs since the limit set by FortiEDR is 2000 (1997, take it or leave it)
+- Each month gets its own folder (YYYY-MM format) ``` month_folder = os.path.join(top_level_folder, current_month_year) ```
+- Daily folders are created within the month folders ``` folder_name = f"FortiEDR_CSV_IOCs_{datetime.today().strftime('%Y-%m-%d')}" ```
+- CSV files are named with the date and a unique identifier ``` filename = os.path.join(folder_path, f"{current_datetime}_TFOX-IOCs_TF{uid}.csv") ```
+- New CSV files are created for every 1997 IOCs since the limit set by FortiEDR is 2000 (1997, take it or leave it) ``` if i % 1997 == 0: ```
 
 ## Usage
 FortiFox is designed to run once per hour, aligning with ThreatFox's IOC update frequency. Set up a scheduled task or cron job to execute the script hourly for optimal results.
