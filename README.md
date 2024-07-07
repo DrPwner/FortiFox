@@ -89,5 +89,6 @@ Personally, id recomend compiling the program using pyinstaller, and creating a 
 - FortiEDR for inspiring the CSV export feature
   
 **And Most Importantly, an Achnowlegment to the supreme cause of this project.**
-  - It was rather beautiful theoretically implementing this technical program, theoretically ofcourse. Verily, I say Unto Thee, Shall We Discuss Supreme Innovations Over Smoke and Coffee.
+  - It Was Rather Beautiful Theoretically Implementing This Technical Program, Theoretically Ofcourse.
+  - Verily, I say Unto Thee, Shall We DiscuIs Supreme Innovations Over Smoke and Coffee.
 
