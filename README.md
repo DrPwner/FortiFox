@@ -86,7 +86,7 @@ Personally, id recomend compiling the program using pyinstaller, and creating a 
 # Acknowledgements
 
 - ThreatFox for providing valuable threat intelligence data
-- FortiEDR for inspiring the CSV export feature
+- FortiEDR for inspiring the CSV import feature
   
 **And Most Importantly, an Achnowlegment To The Supreme Cause of This Project. The Forensicator.**
   - It Was Rather Beautiful Theoretically Implementing This Program, Theoretically Ofcourse.
