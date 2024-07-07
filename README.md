@@ -68,7 +68,7 @@ FortiFox organizes exported IOCs in a structured folder hierarchy:
 FortiFox is designed to run once per hour, aligning with ThreatFox's IOC update frequency. Set up a scheduled task or cron job to execute the script hourly for optimal results.
 
 ## Getting Started
-To jumpstart your threat intelligence collection:
+### To jumpstart your threat intelligence collection:
 
 - Download the Full Threat Fox IOC DUMP -> **https://threatfox.abuse.ch/export/json/full/**
 - Place downloaded .json Dump in a folder that must contain the database and the InsertDump.py script.
