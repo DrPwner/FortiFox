@@ -17,7 +17,7 @@ FortiFox is a powerful Threat Intelligence tool born out of a passion for cybers
 
 ## Why "FortiFox"?
 
-The name "FortiFox" is a playful blend of "FortiEDR" and "ThreatFox", reflecting the program's ability to bridge these two powerful security tools. It's not just functional; it's cute too!
+The name "FortiFox" is a playful blend of "FortiEDR" and "ThreatFox", reflecting the program's ability to bridge these two powerful security tools.
 
 ## Versions
 
