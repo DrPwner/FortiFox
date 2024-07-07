@@ -22,7 +22,7 @@ The name "FortiFox" is a playful blend of "FortiEDR" and "ThreatFox", reflecting
 ## Versions
 
 1. **Email Integration Version**: Includes email notifications to keep you updated on new IOCs added to your database.
-2. **Standard Version**: Operates without email notifications for environments where email integration is not needed or possible.
+2. **Standard Version**: Operates without email notifications for environments where email integration is not needed.
 
 ## Setup and Configuration
 
