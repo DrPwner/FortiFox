@@ -70,8 +70,24 @@ FortiFox is designed to run once per hour, aligning with ThreatFox's IOC update 
 ## Getting Started
 To jumpstart your threat intelligence collection:
 
-- Download the provided ioc_database.db file (last updated on 7/7/2024 3:09AM).
-- Place the database file in the same directory as the FortiFox script.
-- Download the initial IOCs folder structure to kickstart your collection.
+- Download the Full Threat Fox IOC DUMP -> **https://threatfox.abuse.ch/export/json/full/**
+- Place downloaded .json Dump in a folder that must contain the database and the InsertDump.py script.
+- Run InsertDump.py, this program will rapidly insert all the IOC's from the downloaded .json dump into the database.
+- Run The desired FortiFox Program Version.
+- Congratulations.
 
-This approach saves you from having to process ThreatFox's full historical dump, allowing you to start with an up-to-date dataset.
+
+Personally, id recomend compiling the program using pyinstaller, and creating a scheduled task that executes FortiFox.exe Program every one hour.
+
+### To Compile FortiFox:
+``` pyinstaller --noconsole --onefile FortiFox.py ```
+- Note that you may face errors with Defender detecting the compilation behavior as malicious, just click on the notification and allow the file on device.
+
+# Acknowledgements
+
+- ThreatFox for providing valuable threat intelligence data
+- FortiEDR for inspiring the CSV export feature
+  
+**And Most Importantly, an Achnowlegment to the supreme cause of this project.**
+  - It was rather beautiful theoretically implementing this technical program, theoretically ofcourse. Verily, I say Unto Thee, Shall We Discuss Supreme Innovations Over Smoke and Coffee.
+
