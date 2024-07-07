@@ -50,13 +50,14 @@ To get FortiFox up and running, you'll need to configure a few paths in the code
 FortiFox organizes exported IOCs in a structured folder hierarchy:
 ```python
   Top_Level_Folder/
-├── YYYY-MM/
-│   ├── FortiEDR_CSV_IOCs_YYYY-MM-DD/
-│   │   ├── YYYY-MM-DD_TFOX-IOCs_TFxxxxxxxx.csv
-│   │   ├── YYYY-MM-DD_TFOX-IOCs_TFyyyyyyyy.csv
-│   │   └── ...
-│   └── ...
-└── ...
+  ├── YYYY-MM/
+  │   ├── FortiEDR_CSV_IOCs_YYYY-MM-DD/
+  │   │   ├── YYYY-MM-DD_TFOX-IOCs_TFxxxxxxxx.csv
+  │   │   ├── YYYY-MM-DD_TFOX-IOCs_TFyyyyyyyy.csv
+  │   │   └── ...
+  │   └── ...
+  └── ...
+```
 
 - Each month gets its own folder (YYYY-MM format)
 - Daily folders are created within the month folders
